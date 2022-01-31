@@ -4,8 +4,6 @@ The official implementation of IS-MVSNet. We will provide the source code, the w
 
 <img src="imgs/IS-MVSNet%20Framework%20Redraw.png" width="100%">
 
-![image](imgs/IS-MVSNet%20Framework%20Redraw.png)
+<img src="imgs/Photoconsistency%20loss.png" width="50%">
 
-![image](imgs/Photoconsistency%20loss.png)
-
-![image](imgs/Sampling%20interval%20illustrate.png)
+<img src="imgs/Sampling%20interval%20illustrate.png" width="50%">
