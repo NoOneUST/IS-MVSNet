@@ -28,7 +28,7 @@ The official implementation of IS-MVSNet. We will provide the source code, the w
 <br/>
 
 <div  align="center">
-<img src="https://github.com/NoOneUST/IS-MVSNet/blob/main/imgs/Sampling%20interval%20illustrate.png" width="60%" alt="Depth selection module" align="center" /> -->
+<img src="https://github.com/NoOneUST/IS-MVSNet/blob/main/imgs/Sampling%20interval%20illustrate.png" width="60%" alt="Depth selection module" align="center" />
   
   Depth selection module
-</div>
+</div> -->
