@@ -2,5 +2,5 @@ Minspore
 TNT intermediate
 1920*1056
 mean forward time: 3.360448477321497
-3090 24GB
-23900 MB
+A100 40G
+24138 MB
