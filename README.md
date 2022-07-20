@@ -19,21 +19,21 @@ conda activate ismvsnet
 ### Data structure
 DATAROOT
 └───data
-    └───tankandtemples
-        └───intermediate
-            └───Playground
-                └───rmvs_scan_cams
-                    │   00000000_cam.txt
-                    │   00000001_cam.txt
-                    │   ...
-                └───images
-                    │   00000000.jpg
-                    │   00000001.jpg
-                    │   ...
-                └───pair.txt
-                └───Playground.log
-            └───Family
-            └───...
+|   └───tankandtemples
+|       └───intermediate
+|           └───Playground
+|               └───rmvs_scan_cams
+|                   │   00000000_cam.txt
+|                   │   00000001_cam.txt
+|                   │   ...
+|               └───images
+|                   │   00000000.jpg
+|                   │   00000001.jpg
+|                   │   ...
+|               └───pair.txt
+|               └───Playground.log
+|           └───Family
+|           └───...
          
 ### Depth prediction
 ```bash
