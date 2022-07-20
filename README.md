@@ -50,4 +50,4 @@ The depth predictions will be saved to 'results/{dataset_name}/{split}/depth'
 python point_cloud_generator.py
 ```
 
-The depth predictions will be saved to 'results/{dataset_name}/{split}/points'
+The fused point clouds will be saved to 'results/{dataset_name}/{split}/points'
