@@ -6,33 +6,45 @@ ISMVSNet, a.k.a. Importance-sampling-based MVSNet, is a simple yet effective mul
 
 This repo provides a Mindspore-based implementation of IS-MVSNet. You may **star** and **watch** this repo for further updates.
 
-## The main structure of IS-MVSNet
-![alt](imgs/IS-MVSNet%20Framework%20Redraw.png "The main structure of IS-MVSNet")
+### Installation
+```shell
+# Centos 7.9.2009 is recommended.
+# CUDA == 11.1, GCC == 7.3.0, Python == 3.7.9
+conda create -n ismvsnet python=3.7.9
+conda install mindspore-gpu=1.7.0 cudatoolkit=11.1 -c mindspore -c conda-forge  # Install mindspore == 1.7.0
+pip install numpy, opencv-python, tqdm, Pillow
+conda activate ismvsnet
+```
 
-## Error distribution estimation module
-![alt](imgs/Photoconsistency%20loss.png "Error distribution estimation module")
+### Data structure
+DATAROOT
+└───data
+    └───tankandtemples
+        └───intermediate
+            └───Playground
+                └───rmvs_scan_cams
+                    │   00000000_cam.txt
+                    │   00000001_cam.txt
+                    │   ...
+                └───images
+                    │   00000000.jpg
+                    │   00000001.jpg
+                    │   ...
+                └───pair.txt
+                └───Playground.log
+            └───Family
+            └───...
+         
+### Depth prediction
+```bash
+python validate.py
+```
 
-## Depth selection module
-![alt](imgs/Sampling%20interval%20illustrate.png "Depth selection module")
+The depth predictions will be saved to 'results/{dataset_name}/{split}/depth'
 
-<!-- <div  align="center">  
-<img src="https://github.com/NoOneUST/IS-MVSNet/blob/main/imgs/IS-MVSNet%20Framework%20Redraw.png" width="100%" alt="The main structure of IS-MVSNet" align="center" />
-  
-  The main structure of IS-MVSNet
-</div>
+### Point cloud fusion
+```bash
+python point_cloud_generator.py
+```
 
-<br/>
-
-<div  align="center">
-<img src="https://github.com/NoOneUST/IS-MVSNet/blob/main/imgs/Photoconsistency%20loss.png" width="40%" alt="Error distribution estimation module" align="center" />
-  
-  Error distribution estimation module
-</div>
-
-<br/>
-
-<div  align="center">
-<img src="https://github.com/NoOneUST/IS-MVSNet/blob/main/imgs/Sampling%20interval%20illustrate.png" width="60%" alt="Depth selection module" align="center" />
-  
-  Depth selection module
-</div> -->
+The depth predictions will be saved to 'results/{dataset_name}/{split}/points'
