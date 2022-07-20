@@ -17,6 +17,7 @@ conda activate ismvsnet
 ```
 
 ### Data structure
+```
 DATAROOT
 └───data
 |   └───tankandtemples
@@ -34,6 +35,7 @@ DATAROOT
 |               └───Playground.log
 |           └───Family
 |           └───...
+```
          
 ### Depth prediction
 ```bash
