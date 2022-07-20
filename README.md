@@ -17,7 +17,7 @@ conda activate ismvsnet
 ```
 
 ### Pretrained Model
-The pretrained weights for the backbone are already placed under `./weights`. The weights for stages 1 to 3 can be downloaded from the [pretrained weights] (https://drive.google.com/file/d/1zKuWqm9weHSm98SZKld1PbEddgLOQkQV/view?usp=sharing).
+The pretrained weights for the backbone are already placed under `./weights`. The weights for stages 1 to 3 can be downloaded from the [pretrained weights](https://drive.google.com/file/d/1zKuWqm9weHSm98SZKld1PbEddgLOQkQV/view?usp=sharing).
 
 ### Data structure
 ```
