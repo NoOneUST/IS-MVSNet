@@ -58,3 +58,29 @@ python point_cloud_generator.py
 ```
 
 The fused point clouds will be saved to 'results/{dataset_name}/{split}/points'
+
+### Citation
+If you think this repo is useful, please consider to cite our paper:
+```
+@InProceedings{ismvsnet,
+author="Wang, Likang
+and Gong, Yue
+and Ma, Xinjun
+and Wang, Qirui
+and Zhou, Kaixuan
+and Chen, Lei",
+editor="Avidan, Shai
+and Brostow, Gabriel
+and Ciss{\'e}, Moustapha
+and Farinella, Giovanni Maria
+and Hassner, Tal",
+title="IS-MVSNet:Importance Sampling-Based MVSNet",
+booktitle="Computer Vision -- ECCV 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="668--683",
+abstract="This paper presents a novel coarse-to-fine multi-view stereo (MVS) algorithm called importance-sampling-based MVSNet (IS-MVSNet) to address a crucial problem of limited depth resolution adopted by current learning-based MVS methods. We proposed an importance-sampling module for sampling candidate depth, effectively achieving higher depth resolution and yielding better point-cloud results while introducing no additional cost. Furthermore, we proposed an unsupervised error distribution estimation method for adjusting the density variation of the importance-sampling module. Notably, the proposed sampling module does not require any additional training and works reasonably well with the pre-trained weights of the baseline model. Our proposed method leads to up to {\$}{\$}20{\backslash}times {\$}{\$}20{\texttimes}promotion on the most refined depth resolution, thus significantly benefiting most scenarios and excellently superior on fine details. As a result, IS-MVSNet outperforms all the published papers on TNT's intermediate benchmark with an F-score of 62.82{\%}. Code is available at github.com/NoOneUST/IS-MVSNet.",
+isbn="978-3-031-19824-3"
+}
+```
