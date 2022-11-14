@@ -60,7 +60,7 @@ python point_cloud_generator.py
 The fused point clouds will be saved to 'results/{dataset_name}/{split}/points'
 
 ### Citation
-If you think this repo is useful, please consider to cite our paper:
+If you think this repo is helpful, please consider citing our paper:
 ```
 @InProceedings{ismvsnet,
 author="Wang, Likang
