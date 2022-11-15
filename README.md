@@ -1,10 +1,14 @@
 # IS-MVSNet (ECCV 2022)
 
+### [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920663.pdf) | [Video](https://youtu.be/x7g1sO0153I) | [Weights](https://hkustconnect-my.sharepoint.com/:f:/g/personal/lwangcg_connect_ust_hk/EjJEn_0ZGPNBlB3SRpc48b0BfVo3eS4VfCNNxB5LoAAWEQ?e=r0yeF3)
+
 Our paper has been accepted as a conference paper in ECCV 2022!
 
 ISMVSNet, a.k.a. Importance-sampling-based MVSNet, is a simple yet effective multi-view reconstruction method. 
 
 This repo provides a Mindspore-based implementation of IS-MVSNet. You may **star** and **watch** this repo for further updates.
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/x7g1sO0153I/0.jpg)](https://www.youtube.com/watch?v=x7g1sO0153I "IS-MVSNet: Importance Sampling-Based MVSNet")
 
 ### Installation
 ```shell
