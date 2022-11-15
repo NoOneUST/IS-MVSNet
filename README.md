@@ -8,7 +8,7 @@ ISMVSNet, a.k.a. Importance-sampling-based MVSNet, is a simple yet effective mul
 
 This repo provides a Mindspore-based implementation of IS-MVSNet. You may **star** and **watch** this repo for further updates.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/x7g1sO0153I/0.jpg)](https://www.youtube.com/watch?v=x7g1sO0153I "IS-MVSNet: Importance Sampling-Based MVSNet")
+[![IS-MVSNet: Importance Sampling-Based MVSNet](https://res.cloudinary.com/marcomontalbano/image/upload/v1668523609/video_to_markdown/images/youtube--x7g1sO0153I-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=x7g1sO0153I "IS-MVSNet: Importance Sampling-Based MVSNet")
 
 ### Installation
 ```shell
